@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-menu a {
+  font-size: 1.125rem;
+  line-height: 1.3rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #141414;
+  display: block;
+}
+
+@media (max-width: 750px) {
+  .header {
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+  }
+  .header a {
+    background-color: #EECCA9;
+    border-radius: 8px;
+  }
+}
