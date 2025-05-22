@@ -18,15 +18,15 @@
       <img src="./img/logo.svg" alt="Logo" width="104px" height="38px" />
       <nav>
         <ul class="header-menu">
-          <li><a href="#experiencia">Experiencia</a></li>
-          <li><a href="#formacao">Formação</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#experiencia" id="experiencia-header">Experiencia</a></li>
+          <li><a href="#formacao" id="formacao-header">Formação</a></li>
+          <li><a href="#contato" id="contato-header">Contato</a></li>
         </ul>
         <ul class="header-language">
-          <li><img class="idiomas-bandeira" src="./img/usa.svg" width="40" alt=""></li>
-          <li><img class="idiomas-bandeira" src="./img/germany.svg" width="40" alt=""></li>
-          <li><img class="idiomas-bandeira" src="./img/brasil.svg" width="40" alt=""></li>
-          <li><img class="idiomas-bandeira" src="./img/spanish.svg" width="40" alt=""></li>
+          <li><img class="idiomas-bandeira" src="./img/usa.svg" width="40" alt="" id="btn-en"></li>
+          <li><img class="idiomas-bandeira" src="./img/brasil.svg" width="40" alt="" id="btn-pt"></li>
+          <!-- <li><img class="idiomas-bandeira" src="./img/spanish.svg" width="40" alt=""></li>
+          <li><img class="idiomas-bandeira" src="./img/germany.svg" width="40" alt=""></li> -->
         </ul>
       </nav>
     </header>
@@ -39,18 +39,18 @@
         height="520px"
       />
       <div>
-        <h1>
+        <h1 id="title">
           Desenvolvedor <br />
           Front End &<br />
           UX/UI Designer
         </h1>
-        <p>Localizado em São Paulo</p>
+        <p id="location">Localizado em São Paulo</p>
       </div>
     </main>
-    <section class="experiencia" id="experiencia" aria-label="Experiência">
-      <h2 class="subtitulo">Experiência</h2>
+    <section class="experiencia" id="experiencia" aria-label="experiência">
+      <h2 class="subtitulo" id="subtitulo-experiencia">Experiência</h2>
       <div>
-        <p class="experiencia-texto">
+        <p class="experiencia-texto" id="experiencia-apresentacao">
           Desenvolvo pequenos projetos como o Bikcraft utilizando
           <strong>HTML</strong>, <strong>CSS</strong> e
           <strong>JavaScript</strong>. Produzo protótipos de WebSites e aplicativos no figma,
@@ -60,8 +60,8 @@
         <div class="empresa">
           <span class="empresa-ano">2024</span>
           <h3 class="empresa-titulo">Bikcraft</h3>
-          <span class="empresa-titulo">Projeto Profissional</span>
-          <p class="empresa-texto">
+          <span class="empresa-titulo" id="projeto-tipo-um">Projeto Profissional</span>
+          <p class="empresa-texto" id="empresa-resumo-um">
             No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML,CSS JavaScript do site.
           </p>
           <ul class="empresa-habilidades">
@@ -76,8 +76,8 @@
         <div class="empresa">
           <span class="empresa-ano">2024-2025</span>
           <h3 class="empresa-titulo">Protótipo - Aplicação Web</h3>
-          <span class="empresa-titulo">Projeto Profissional</span>
-          <p class="empresa-texto">
+          <span class="empresa-titulo" id="projeto-tipo-dois">Projeto Profissional</span>
+          <p class="empresa-texto" id="empresa-resumo-dois">
             Produzi um protótipo para as páginas que devem compor um projeto de inventário.
           </p>
           <ul class="empresa-habilidades">
@@ -90,8 +90,8 @@
         <div class="empresa">
           <span class="empresa-ano">2024</span>
           <h3 class="empresa-titulo">AluraFlix</h3>
-          <span class="empresa-titulo">Projeto Profissional</span>
-          <p class="empresa-texto">
+          <span class="empresa-titulo" id="projeto-tipo-tres">Projeto Profissional</span>
+          <p class="empresa-texto" id="empresa-resumo-três">
             Projeto feito utilizando um protótipo do Figma. O site foi feito com Html e CSS.
           </p>
           <ul class="empresa-habilidades">
@@ -106,9 +106,9 @@
 
     <section class="formacao" id="formacao" aria-label="Formacao">
       <div class="formacao-container">
-        <h2 class="subtitulo">Formação</h2>
+        <h2 class="subtitulo" id="subtitulo-formacao">Formação</h2>
         <div>
-          <p class="formacao-texto">
+          <p class="formacao-texto" id="formacao-texto">
             Minha <strong>Graduação</strong> em 
             <strong>Ciência da computação</strong> será concluída em 2025. Além disso me mantenho sempre atualizado
             com cursos intensivos presenciais, online e projetos semanais desafiadores.
@@ -116,40 +116,40 @@
 
           <ul class="faculdade-lista">
             <li class="faculdade">
-              <span class="faculdade-tipo">Bacharel</span>
-              <h3 class="faculdade-curso">Ciência da Computação</h3>
+              <span class="faculdade-tipo" id="faculdade-tipo">Bacharel</span>
+              <h3 class="faculdade-curso" id="curso-ciencia">Ciência da Computação</h3>
               <span class="faculdade-instituição">Universidade Paulista</span>
             </li>
 
             <li class="faculdade">
-              <span class="faculdade-tipo">Curso Intensivo</span>
-              <h3 class="faculdade-curso">Administrador de Servidores Linux</h3>
+              <span class="faculdade-tipo" id="cursos-intensivos">Curso Intensivo</span>
+              <h3 class="faculdade-curso" id="curso-servidores">Administrador de Servidores Linux</h3>
               <span class="faculdade-instituição">Senai - Suiço Brasileiro</span>
             </li>
 
             <li class="faculdade">
-              <span class="faculdade-tipo">Curso Intensivo</span>
-              <h3 class="faculdade-curso">Desenvolvimento Front-End</h3>
+              <span class="faculdade-tipo" id="cursos-intensivos-dois">Curso Intensivo</span>
+              <h3 class="faculdade-curso" id="curso-desenvolvimento">Desenvolvimento Front-End</h3>
               <span class="faculdade-instituição">Senai - Suiço Brasileiro</span>
             </li>
           </ul>
 
           <div class="formacao-extra">
             <div class="cursos">
-              <h3>Cursos Intensivos</h3>
+              <h3 id="cursos-intensivos-tres">Cursos Intensivos</h3>
               <ul>
-                <li>Alemão para iniciantes <span>40h</span></li>
+                <li id="curso-alemao">Alemão para iniciantes <span>40h</span></li>
                 <li>Visual Studio Basic <span>25h</span></li>
               </ul>
             </div>
 
             <div class="idiomas">
-              <h3>Idiomas</h3>
+              <h3 id="idiomas">Idiomas</h3>
               <ul>
-                <li>Português<span> - Nativo</span> <img class="idiomas-bandeira"src="./img/brasil.svg" alt="" width="30"></li>
-                <li>Inglês <span> - Fluente</span> <img class="idiomas-bandeira"src="./img/usa.svg" alt="" width="30"></li>
-                <li>Espanhol <span> - Iniciante</span> <img class="idiomas-bandeira"src="./img/spanish.svg" alt="" width="30"></li>
-                <li>Alemão <span> - Iniciante</span> <img class="idiomas-bandeira"src="./img/germany.svg" alt="" width="30"></li>
+                <li id="portugues">Português<span> - Nativo</span> <img class="idiomas-bandeira"src="./img/brasil.svg" alt="" width="30" ></li>
+                <li id="ingles">Inglês <span> - Fluente</span> <img class="idiomas-bandeira"src="./img/usa.svg" alt="" width="30" ></li>
+                <li id="espanhol">Espanhol <span> - Iniciante</span> <img class="idiomas-bandeira"src="./img/spanish.svg" alt="" width="30"></li>
+                <li id="alemao">Alemão <span> - Iniciante</span> <img class="idiomas-bandeira"src="./img/germany.svg" alt="" width="30" ></li>
 
               </ul>
             </div>
@@ -160,7 +160,7 @@
 
     <footer class="rodape" id="contato">
       <div class="rodape-container">
-        <p class="rodape-texto">
+        <p class="rodape-texto" id="rodape-texto">
           Estou disponível para novos projetos no momento. Entre em contato
           comigo e marcamos uma conversa 💬.
         </p>
@@ -169,8 +169,9 @@
           <li><a href="https://www.linkedin.com/in/jonathanasf/">Linkedin</a> <img class="idiomas-bandeira"src="./img/linkedin.svg" alt="Link para o meu Github" width="40"></li>
           <li><a href="https://github.com/JonathanAsf">Github</a> <img class="idiomas-bandeira"src="./img/github.svg" alt="Link para o meu Github" width="40"></li>
         </ul>
-        <p class="rodape-copy">Jonathan. Alguns direitos reservados</p>
+        <p class="rodape-copy" id="rodape-copy">Jonathan. Alguns direitos reservados</p>
       </div>
     </footer>
+    <script src="./script/script.js"></script>
   </body>
 </html>
