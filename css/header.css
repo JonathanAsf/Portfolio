@@ -23,6 +23,10 @@
   display: block;
 }
 
+.header-menu img:hover{
+  width:45px;
+  cursor:pointer;
+}
 
 @media (max-width: 750px) {
   .header {
