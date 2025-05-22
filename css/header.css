@@ -17,14 +17,19 @@
 .header-menu a {
   font-size: 1.125rem;
   line-height: 1.3rem;
-  padding: 10px 20px;
+  padding: 5px 10px;
   text-decoration: none;
   color: #141414;
   display: block;
 }
 
-.header-menu img:hover{
-  width:45px;
+.header-language{
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.header-language img:hover{
   cursor:pointer;
 }
 
@@ -37,5 +42,9 @@
   .header a {
     background-color: #EECCA9;
     border-radius: 8px;
+  }
+  .header-language{
+    margin:20px;
+    padding:10px;
   }
 }
