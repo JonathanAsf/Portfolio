@@ -24,8 +24,8 @@ img {
   border-radius: 16px;
 }
 
-.background-clear{
-  background-color:#FAF0E6;
+.background-clear {
+  background-color: #faf0e6;
 }
 .subtitulo {
   font-size: 8rem;
@@ -39,6 +39,6 @@ img {
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
-    max-width: initial !important;
+    max-width: initial;
   }
 }

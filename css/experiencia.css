@@ -16,11 +16,11 @@
   line-height: 1.33;
   max-width: 40ch;
   margin-bottom: 60px;
-  coor: #525252;
+  color: #525252;
 }
 
 .experiencia-texto strong {
-  coor: #141414;
+  color: #141414;
 }
 
 .empresa {
@@ -28,7 +28,11 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px 20px;
   padding: 20px;
-  background: linear-gradient(90deg,rgba(241, 241, 241, 1) 0%, rgba(238, 204, 169, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 241, 241, 1) 0%,
+    rgba(238, 204, 169, 1) 100%
+  );
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
